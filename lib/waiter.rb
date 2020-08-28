@@ -42,5 +42,9 @@ class Waiter
         customer_counts.max_by {|cust, count| count}
     end
 
+    ## come back later to write methods for:
+    ## - the meal of a waiter's worst-tipping customer
+    ## - avg tips for the most and least experienced waiters
+
 end
 
